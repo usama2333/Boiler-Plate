@@ -33,10 +33,10 @@ const Navbar = () => {
 
   return (
     <Fragment>
-      <Container maxWidth="custom" >
+      <Container maxWidth="custom" sx={{ position: "relative" }}>
         <AppBar
-         
-          sx={{ backgroundColor: "transparent", boxShadow: "none" }}
+         position="absolute"
+          sx={{ backgroundColor: "transparent", boxShadow: "none",color : 'red' }}
         >
           <Container maxWidth="custom"
            sx={{ 

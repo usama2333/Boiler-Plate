@@ -8,6 +8,9 @@ function App() {
     <Fragment>
       <Navbar/>
       <Main/>
+     
+
+      
     </Fragment>
   );
 }
