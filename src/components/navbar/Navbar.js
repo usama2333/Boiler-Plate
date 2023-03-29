@@ -8,10 +8,8 @@ import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
-import navlogo from "../../assests/images/navlogo.png";
 import liboex from "../../assests/images/liboex.png";
-import {getStartedBtn,homeBtn,homeButton,libonexCenter,otherBtn,signinBtn,signinButton,simpleButton,
-  vipTokenBtn,} from "./style";
+import {getStartedBtn,homeBtn,libonexCenter,otherBtn,signinBtn } from "./style";
 
 
 const Navbar = () => {
@@ -35,18 +33,19 @@ const Navbar = () => {
 
   return (
     <Fragment>
-      <Container maxWidth="custom" sx={{ position: "relative" }}>
+      <Container maxWidth="custom" >
         <AppBar
-          position="absolute"
+         
           sx={{ backgroundColor: "transparent", boxShadow: "none" }}
         >
-          <Container maxWidth="custom" sx={{ 
-            
-            boxShadow: '0 0 20px 0 rgba(0, 0, 0, 0.1)',
+          <Container maxWidth="custom"
+           sx={{ 
+             boxShadow: '0 0 20px 0 rgba(0, 0, 0, 0.1)',
              backgroundColor: '#fff',
              pt :{xlg : '15px' , lg : '5px'},
              pb : {xlg : '15px' , lg : '5px'},
-             }}>
+             }}
+           >             
             <Toolbar disableGutters>
               <Box >
                 
@@ -130,7 +129,7 @@ const Navbar = () => {
                   sx={{
                     // display: { xs: "none", md: "flex" },
                     mt : '20px',
-                    height : {xlg : 'auto' , lg : '40px'}
+                    height : {xlg : 'auto' , lg : '35px' , md : '35px'}
                   }}
                 ></Box>
                 <Box
@@ -156,7 +155,7 @@ const Navbar = () => {
               <Box>
                 <Button
                   sx={{
-                    mr: { xlg: "70px", md: "0px" },
+                    mr: { xlg: "70px",lg : '20px' ,md: "0px" },
                     boxShadow: "0 0 20px 0 rgba(0, 0, 0, 0.1)",
                     borderRadius: '5px',
                     backgroundColor : '#28a0b0',
@@ -167,6 +166,7 @@ const Navbar = () => {
                 </Button>
               </Box>
             </Toolbar>
+         
           </Container>
         </AppBar>
       </Container>

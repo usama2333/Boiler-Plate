@@ -29,13 +29,12 @@
     letterSpacing: "0.66px",
     textAlign: "left",
     mr : {xlg : '50px' , lg : '40px' , md :'30px'},
-    ml : {xl :'320px' , xlg : '300px' , lg : '140px'},
+    ml : {xl :'320px' , xlg : '300px' , lg : '160px'},
     display : {xs : 'none' , md : 'flex'}
   };
   
   export const getStartedBtn = {
-    // width: "119px",
-    // height: "26px",
+   
     textTransform: "capitalize",
     margin: {
       xl: "21px 29px 21px 29px",
@@ -60,7 +59,8 @@
   export const libonexCenter = {
     display: { xs: "flex", md: "none" },
     mt : '20px',
-    width : {xs :'130px', sm : 'auto'}
+    width : {xs :'130px', sm : 'auto'},
+    height : {xlg : 'auto' , lg : '35px' , md : '35px'}
   }
 
   export const otherBtn = {
